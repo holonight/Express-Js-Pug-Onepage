@@ -1,0 +1,75 @@
+meta(charset="utf-8")
+//  Stylesheets 
+link(href="/assets/css/bootstrap.css", rel="stylesheet")
+link(href="/assets/css/style.css", rel="stylesheet")
+link(rel="shortcut icon", href="https://demoxml.com/html/kijat-html/images/favicon.png", type="image/x-icon")
+link(rel="icon", href="https://demoxml.com/html/kijat-html/images/favicon.png", type="image/x-icon")
+//  Responsive 
+meta(http-equiv="X-UA-Compatible", content="IE=edge")
+meta(name="viewport", content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0")
+block seotag
+link(href="/assets/css/responsive.css", rel="stylesheet")
+.body-bg(style="background-image: url(https://demoxml.com/html/kijat-html/images/background/body-bg.png);")
+.page-wrapper
+  //  Preloader 
+  .preloader
+    .icon
+  //  Site Container
+  .site-container
+    .mode-switch
+      .switcher.clearfix
+        .left-text Weekend Mode
+        .switch-btn
+          .btn-inner
+            .circle
+            .txt OFF
+    .auto-container
+      .mobile-header
+        .inner
+          .logo-side
+            .image-box
+              .image
+                img(src="https://demoxml.com/html/kijat-html/images/resource/image-1.jpg", alt)
+            .info
+              .name Graham Walker
+              .designation App Developer
+          .social-links
+            .social-btn
+              i.icon +
+            ul.links.clearfix
+              li
+                a(href="#")
+                  span.fab.fa-facebook-square
+              li
+                a(href="#")
+                  span.fab.fa-instagram
+              li
+                a(href="#")
+                  span.fab.fa-twitter-square
+              li
+                a(href="#")
+                  span.fab.fa-linkedin
+          .nav-toggler
+            img(src="https://demoxml.com/html/kijat-html/images/icons/menu-icon.png", alt)
+      .site-content-container.row.clearfix
+        // Left Bar
+        include ../component/left-menu.pug
+        block content
+
+          include ../component/footer.pug
+
+.scroll-to-top.scroll-to-target(data-target="html")
+  span.fas.fa-arrow-up
+script(src="https://demoxml.com/html/kijat-html/js/jquery.js")
+script(src="https://demoxml.com/html/kijat-html/js/popper.min.js")
+script(src="https://demoxml.com/html/kijat-html/js/bootstrap.min.js")
+script(src="https://demoxml.com/html/kijat-html/js/jquery.fancybox.js")
+script(src="https://demoxml.com/html/kijat-html/js/jquery.scrollTo.js")
+script(src="https://demoxml.com/html/kijat-html/js/pagenav.js")
+script(src="https://demoxml.com/html/kijat-html/js/owl.js")
+script(src="https://demoxml.com/html/kijat-html/js/mixitup.js")
+script(src="https://demoxml.com/html/kijat-html/js/knob.js")
+script(src="https://demoxml.com/html/kijat-html/js/wow.js")
+script(src="https://demoxml.com/html/kijat-html/js/appear.js")
+script(src="https://demoxml.com/html/kijat-html/js/custom-script.js")
+block analytics

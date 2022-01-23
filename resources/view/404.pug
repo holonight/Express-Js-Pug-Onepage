@@ -1,0 +1,24 @@
+extends layout/layout.pug
+block seotag 
+ title=pageTitle
+ meta(name="author", content=pageTitle)
+ meta(property="og:title", content="İsmet Faruk.com Ana Sayfa")
+ meta(property="og:site_name", content="ismetfaruk.com")
+ meta(property="og:url", content="https://www.ismetfaruk.com/")
+ meta(property="og:description", content="Ismetfaruk.com adlı Web Sitesi Üzerinden Web ve Mobil Teknolojiler Üzerinde Bilgiler alabilirsiniz.")
+ meta(property="og:type", content="website")
+
+block content 
+        // Right Contents
+        .right-content.col-xl-9.col-lg-8.col-md-12
+          .right-inner
+            .content-container
+              .home-content#home-section
+                .welcome
+                  h4 404 HATA!
+                  .text Şu anda 404 sayfasındasınız. Ana Sayfaya gitmek için lütfen
+                    a(href=returnurl)  Tıklayın
+                // About Me
+                
+block analytics 
+                      //404

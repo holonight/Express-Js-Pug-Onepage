@@ -1,0 +1,19 @@
+{
+    "name": "Node Js Projesi",
+    "version": "1.0.0",
+    "description": "faruk ilk ders",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Faruk Öç",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "dotenv": "^14.2.0",
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15",
+        "pug": "^3.0.2"
+    }
+}

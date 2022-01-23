@@ -1,0 +1,772 @@
+extends layout/layout.pug
+block seotag 
+ meta(name="author", content=profile)
+ title=pageTitle
+ meta(property="og:title", content=pageTitle)
+block content 
+        // Right Content
+        .right-content.col-xl-9.col-lg-8.col-md-12
+          .right-inner
+            .content-container
+              .home-content#home-section
+                // -Download CV
+                .download-cv
+                  a.theme-btn.download-btn(href="#")
+                    i.icon
+                      img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/cv-1.png", alt)
+                    span.txt Downlod CV
+                // Welcome
+                .welcome
+                  h4 Hello and Welcome
+                  .text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim laboris nisi ut aliquip ex ea commodo consequat.
+                // About Me
+                .about-me
+                  .row.clearfix
+                    // Skills
+                    .skills-column.col-xl-5.col-lg-12.col-md-12
+                      h4 Skills
+                      .skills
+                        .skill-block
+                          .skill-block-inner
+                            .skill-title wordpress
+                            .bar
+                              .bar-inner.count-bar(data-percent="82%")
+                                .count-box
+                                  span.count-text(data-stop="82", data-speed="2000") 0
+                                  | %
+                        .skill-block
+                          .skill-block-inner
+                            .skill-title Photoshop
+                            .bar
+                              .bar-inner.count-bar(data-percent="78%")
+                                .count-box
+                                  span.count-text(data-stop="78", data-speed="2000") 0
+                                  | %
+                        .skill-block
+                          .skill-block-inner
+                            .skill-title HTML
+                            .bar
+                              .bar-inner.count-bar(data-percent="97%")
+                                .count-box
+                                  span.count-text(data-stop="97", data-speed="2000") 0
+                                  | %
+                    // Expertise
+                    .expertise-column.col-xl-7.col-lg-12.col-md-12
+                      h4 Expertise
+                      .expertise
+                        .row.clearfix
+                          .col-lg-6.col-md-6.col-sm-12
+                            ul
+                              li install and configure
+                              li web usability
+                              li digital painting
+                              li grid and layout
+                              li mobile app design
+                              li graphical design
+                              li seo optimization
+                              li social media
+                          .col-lg-6.col-md-6.col-sm-12
+                            ul
+                              li ux and ui design
+                              li logo design
+                              li 3D animation
+                              li audio video editing
+                              li photography
+                              li web development
+                              li digital marketing
+                              li app development
+                  // Features
+                  .features
+                    .row.clearfix
+                      // Feature Block
+                      .feature-block.col-xl-4.col-lg-4.col-md-6.col-sm-12
+                        .inner-box
+                          .icon-box
+                            span.icon
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/icons/lcd-2.png", alt)
+                          h5 Design Concept
+                          .text Awesome designs for your company
+                      // Feature Block
+                      .feature-block.col-xl-4.col-lg-4.col-md-6.col-sm-12
+                        .inner-box
+                          .icon-box
+                            span.icon
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/icons/mobile-2.png", alt)
+                          h5 App Development
+                          .text Well-coded apps suitable for your needs
+                      // Feature Block
+                      .feature-block.col-xl-4.col-lg-4.col-md-6.col-sm-12
+                        .inner-box
+                          .icon-box
+                            span.icon
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/icons/support-2.png", alt)
+                          h5 Marketing
+                          .text Affordable, targeted media for everyone
+                  // Languages
+                  .languages
+                    h4 Languages
+                    .row.clearfix
+                      // Language Block
+                      .language-block.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .graph-outer
+                            input.dial(type="text", data-fgcolor="#fd7030", data-bgcolor="#f5f5f5", data-width="200", data-height="200", data-linecap="normal", value="99")
+                            .inner-text.count-box
+                              span.count-text(data-stop="99", data-speed="2000")
+                              | %
+                          .text
+                            | English
+                            br
+                            | Experience
+                      // Language Block
+                      .language-block.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .graph-outer
+                            input.dial(type="text", data-fgcolor="#fd7030", data-bgcolor="#f5f5f5", data-width="200", data-height="200", data-linecap="normal", value="80")
+                            .inner-text.count-box
+                              span.count-text(data-stop="80", data-speed="2000")
+                              | %
+                          .text
+                            | French
+                            br
+                            | Experience
+                // End About Me
+                // Testimonials
+                .testimonials
+                  .carousel-box.wow.fadeIn(data-wow-duration="1500ms", data-wow-delay="300ms")
+                    .testi-carousel.owl-theme.owl-carousel
+                      // Slide
+                      .slide-item
+                        .content-box
+                          .image-box
+                            .image
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/image-2.jpg", alt)
+                          .text “ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”
+                          .info Dave Smith - CEO @ vcard inc
+                      // Slide
+                      .slide-item
+                        .content-box
+                          .image-box
+                            .image
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/image-2.jpg", alt)
+                          .text “ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”
+                          .info Dave Smith - CEO @ vcard inc
+                      // Slide
+                      .slide-item
+                        .content-box
+                          .image-box
+                            .image
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/image-2.jpg", alt)
+                          .text “ Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. ”
+                          .info Dave Smith - CEO @ vcard inc
+              // Resume Section
+              .resume-content#resume-section
+                .page-title.sec-title
+                  h1
+                    span Resume
+                // Award
+                .awards
+                  .main-title
+                    span.icon
+                      img(src="https://demoxml.com/html/kijat-html/images/resource/icons/award-1.png", alt)
+                    span.txt Awards
+                  .row.clearfix
+                    // Block
+                    .award-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2021
+                        h5 Best Designer
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore
+                    // Block
+                    .award-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2020
+                        h5 Art of the Week
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore
+                    // Block
+                    .award-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2019
+                        h5 Creative Poster Award
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore
+                    // Block
+                    .award-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2018
+                        h5 Website of the Month
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore
+                // Award
+                .expertise
+                  .main-title
+                    span.icon
+                      img(src="https://demoxml.com/html/kijat-html/images/resource/icons/expertise-1.png", alt)
+                    span.txt Expertise
+                  .row.clearfix
+                    // Block
+                    .expertise-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        ul
+                          li install and configure
+                          li web usability
+                          li digital painting
+                          li grid and layout
+                          li mobile app design
+                    // Block
+                    .expertise-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        ul
+                          li ux and ui design
+                          li logo design
+                          li 3D animation
+                          li graphical design
+                          li seo optimization
+                    // Block
+                    .expertise-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        ul
+                          li social media
+                          li audio video editing
+                          li photography
+                          li web development
+                          li digital marketing
+                // Education
+                .education
+                  .main-title
+                    span.icon
+                      img(src="https://demoxml.com/html/kijat-html/images/resource/icons/education-1.png", alt)
+                    span.txt Education
+                  .row.clearfix
+                    // Block
+                    .edu-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2017 - 2021
+                        h5 Master in Graphics
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt.
+                    // Block
+                    .edu-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2015 - 2017
+                        h5 Web Design
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt.
+                    // Block
+                    .edu-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2011 - 2013
+                        h5 University of Art
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt.
+                    // Block
+                    .edu-block.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2011 - 2012
+                        h5 Photoshooting Course
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt.
+                // Interests
+                .interests
+                  .main-title
+                    span.icon
+                      img(src="https://demoxml.com/html/kijat-html/images/resource/icons/interest-1.png", alt)
+                    span.txt Interests
+                  .row.clearfix
+                    // Block
+                    .interest-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon-box
+                          span.icon.def-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/orange/book-1.png", alt)
+                          span.icon.hvr-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/book-1.png", alt)
+                        h5 Reading
+                    // Block
+                    .interest-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon-box
+                          span.icon.def-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/orange/world-1.png", alt)
+                          span.icon.hvr-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/world-1.png", alt)
+                        h5 Travel
+                    // Block
+                    .interest-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon-box
+                          span.icon.def-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/orange/camera-1.png", alt)
+                          span.icon.hvr-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/camera-1.png", alt)
+                        h5 Photography
+                    // Block
+                    .interest-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon-box
+                          span.icon.def-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/orange/cycle-1.png", alt)
+                          span.icon.hvr-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/cycle-1.png", alt)
+                        h5 Cycling
+                    // Block
+                    .interest-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon-box
+                          span.icon.def-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/orange/hiking-1.png", alt)
+                          span.icon.hvr-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/hiking-1.png", alt)
+                        h5 Hiking
+                    // Block
+                    .interest-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon-box
+                          span.icon.def-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/orange/gaming-1.png", alt)
+                          span.icon.hvr-icon
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/icons/white/gaming-1.png", alt)
+                        h5 Gaming
+                // Experience
+                .education.experience
+                  .main-title
+                    span.icon
+                      img(src="https://demoxml.com/html/kijat-html/images/resource/icons/experience-1.png", alt)
+                    span.txt Experience
+                  .row.clearfix
+                    // Block
+                    .edu-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2017 - Current
+                        h5 Themeforest
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    // Block
+                    .edu-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2015 - 2017
+                        h5 GraphicRiver
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    // Block
+                    .edu-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .date
+                          span 2012 - 2015
+                        h5 CodeCanyon
+                        .text Lorem ipsum dolor sit amet, consectetur adipisicing.
+              // Work Section
+              .work-content#work-section
+                .page-title.sec-title
+                  h1
+                    span Work
+                // Portfolio Section 
+                section.portfolio-section
+                  // MixitUp Galery
+                  .mixitup-gallery
+                    // Filter
+                    .filters.clearfix
+                      ul.filter-tabs.filter-btns.clearfix
+                        li.active.filter(data-role="button", data-filter="all") Show All
+                        li.filter(data-role="button", data-filter=".brandings") Brandings
+                        li.filter(data-role="button", data-filter=".print") Print
+                        li.filter(data-role="button", data-filter=".motion") Motion
+                        li.filter(data-role="button", data-filter=".websites") Websites
+                    .filter-list.row.clearfix
+                      // Portfolio block
+                      .portfolio-block.mix.all.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-1.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-1.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-2.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-2.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.print.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-3.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-3.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.motion.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-4.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-4.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.motion.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-5.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-5.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.print.motion.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-6.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-6.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.print.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-7.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-7.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.print.motion.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-8.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-8.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.print.motion.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-9.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-9.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.motion.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-10.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-10.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.print.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-11.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-11.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.print.motion.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-12.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-12.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.motion.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-13.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-13.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.print.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-14.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-14.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+                      // Portfolio block
+                      .portfolio-block.mix.all.brandings.websites.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/work-15.jpg", alt)
+                          .hover-box
+                            .hvr-upper.clearfix
+                              a.lightbox-image.theme-btn(href="https://demoxml.com/html/kijat-html/images/resource/work-15.jpg", data-fancybox="gallery")
+                                span.fa.fa-search
+                              a.theme-btn.view-btn(href="work-single.html")
+                                span.far.fa-file
+                            .hvr-lower
+                              .title
+                                a(href="work-single.html") Branding Design
+                              .cat
+                                a(href="#") Print
+              // Stories Section
+              .stories-content#stories-section
+                .page-title.sec-title
+                  h1
+                    span Stories
+                // Stories Section 
+                section.stories-section
+                  .row.clearfix
+                    .story-column.col-xl-6.col-lg-12.col-md-12
+                      // News block
+                      .news-block
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-1.jpg", alt)
+                          .over-box
+                            .hvr-lower
+                              .title
+                                a(href="story-single.html") Scotland's jungle islands are dealing with a major Covid hangover
+                              .info.clearfix
+                                .i-blk
+                                  span.icon.far.fa-comment
+                                  |  5 comments
+                                .i-blk
+                                  span.icon.far.fa-user
+                                  |  admin
+                      // News block
+                      .news-block-two
+                        .inner-box
+                          .image
+                            a(href="story-single.html")
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-6.jpg", alt)
+                          .text-box
+                            .title
+                              a(href="story-single.html") 'It's the most hostile place': Life at the North Pole
+                      // News block
+                      .news-block-two
+                        .inner-box
+                          .image
+                            a(href="story-single.html")
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-7.jpg", alt)
+                          .text-box
+                            .title
+                              a(href="story-single.html") How much respect does Lakers' title deserve?
+                      // News block
+                      .news-block-two
+                        .inner-box
+                          .image
+                            a(href="story-single.html")
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-8.jpg", alt)
+                          .text-box
+                            .title
+                              a(href="story-single.html") Cruise ships torn apart after coronavirus sell off
+                    .story-column.col-xl-6.col-lg-12.col-md-12
+                      // News block
+                      .news-block-two
+                        .inner-box
+                          .image
+                            a(href="story-single.html")
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-3.jpg", alt)
+                          .text-box
+                            .title
+                              a(href="story-single.html") Why does Hong Kong wrap its towers in 'cocoons'?
+                      // News block
+                      .news-block-two
+                        .inner-box
+                          .image
+                            a(href="story-single.html")
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-4.jpg", alt)
+                          .text-box
+                            .title
+                              a(href="story-single.html") Using hand sanitizer may be giving you a false sense of security
+                      // News block
+                      .news-block-two
+                        .inner-box
+                          .image
+                            a(href="story-single.html")
+                              img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-5.jpg", alt)
+                          .text-box
+                            .title
+                              a(href="story-single.html") Why this space age airplane could change flying forever
+                      // News block
+                      .news-block
+                        .inner-box
+                          .image
+                            img(src="https://demoxml.com/html/kijat-html/images/resource/blog-image-2.jpg", alt)
+                          .over-box
+                            .hvr-lower
+                              .title
+                                a(href="story-single.html") Kaepernick's Nike jersey sells out quickly
+                              .info.clearfix
+                                .i-blk
+                                  span.icon.far.fa-comment
+                                  |  5 comments
+                                .i-blk
+                                  span.icon.far.fa-user
+                                  |  admin
+              // Contact Section
+              .contact-content#contact-section
+                .page-title.sec-title
+                  h1
+                    span Contact
+                // Text
+                .upper-text
+                  h4 Get in touch
+                  .text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim laboris nisi ut aliquip ex ea commodo consequat.
+                .info-box
+                  .row.clearfix
+                    // Info Block
+                    .info-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon
+                          span.fa.fa-envelope
+                        .text
+                          a(href="mailto:resume@domain.com") resume@domain.com
+                    // Info Block
+                    .info-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon
+                          span.fa.fa-phone-alt
+                        .text
+                          a(href="tel:+38349123456") +38349 123 456
+                    // Info Block
+                    .info-block.col-xl-4.col-lg-6.col-md-6.col-sm-12
+                      .inner-box
+                        .icon
+                          span.fa.fa-map-marker-alt
+                        .text
+                          a(href="#") Vicotria street, 23R
+                // Form Box
+                .form-box
+                  h4 Message me
+                  .contact-form
+                    form(method="post", action="contact.html")
+                      .row.clearfix
+                        .field-group.col-lg-6.col-md-6.col-sm-12
+                          .form-group
+                            label.field-label(for="name")
+                              span.icon.fa.fa-user
+                            input#name(type="text", name="fieldname", placeholder="Name", required)
+                          .form-group
+                            label.field-label(for="email")
+                              span.icon.far.fa-envelope
+                            input#email(type="email", name="fieldname", placeholder="E-mail", required)
+                          .form-group
+                            label.field-label(for="website")
+                              span.icon.fa.fa-link
+                            input#website(type="url", name="fieldname", placeholder="Website", required)
+                        .field-group.col-lg-6.col-md-6.col-sm-12
+                          .form-group
+                            textarea#message(name="fieldname", placeholder="Message", required)
+                          .form-group
+                            button.theme-btn.btn-style-one(type="submit")
+                              span Send message  
+block analytics 
+                      //analytics kodlarınızı ekleyebilirsiniz
